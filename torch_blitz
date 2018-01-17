@@ -1,0 +1,7 @@
+from __future__ import print_function
+import torch
+
+#construct a 5x3 matrix, uninitialized
+x = torch.Tensor(5, 3)
+
+print(x)
